@@ -1,0 +1,9 @@
+#d3-chord-diagram .chord path {
+    fill-opacity: .67;
+    stroke: #000;
+    stroke-width: .5px;
+}
+#d3-chord-diagram #d3-chord-diagram-container { margin-top: 60px; }
+
+#d3-bar-chart .bar { fill: DeepSkyBlue; }
+#d3-bar-chart .bar:hover { fill: brown; }
