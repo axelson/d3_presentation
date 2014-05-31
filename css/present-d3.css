@@ -7,3 +7,5 @@
 
 #d3-bar-chart .bar { fill: DeepSkyBlue; }
 #d3-bar-chart .bar:hover { fill: brown; }
+
+.red { color: red; font-weight: bold !important; }

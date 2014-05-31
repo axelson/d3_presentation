@@ -31,9 +31,9 @@ function d3_chord_diagram() {
   .matrix(matrix);
 
   var width = 960,
-  height = 500,
-  innerRadius = Math.min(width, height) * .41,
-  outerRadius = innerRadius * 1.1;
+      height = 500,
+      innerRadius = Math.min(width, height) * .41,
+      outerRadius = innerRadius * 1.1;
 
   var fill = d3.scale.ordinal()
   .domain(d3.range(4))
@@ -138,7 +138,7 @@ function d3_streamgraph() {
   .style("fill", function() { return color(Math.random()); });
 
   function transition() {
-    d3.selectAll("path")
+    d3.selectAll("#d3-streamgraph-container path")
     .data(function() {
       var d = layers1;
       layers1 = layers0;

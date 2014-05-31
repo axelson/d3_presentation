@@ -592,7 +592,7 @@ var Reveal = (function(){
 		}
 
 		// Auto-slide playback controls
-		if( numberOfSlides > 1 && config.autoSlide && config.autoSlideStoppable && features.canvas && features.requestAnimationFrame ) {
+		if( numberOfSlides > 1 && config.autoSlide && features.canvas && features.requestAnimationFrame ) {
 			autoSlidePlayer = new Playback( dom.wrapper, function() {
 				return Math.min( Math.max( ( Date.now() - autoSlideStartTime ) / autoSlide, 0 ), 1 );
 			} );
